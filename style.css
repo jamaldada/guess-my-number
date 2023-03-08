@@ -118,3 +118,67 @@ h1 {
   margin-bottom: 2rem;
 }
 
+/* Media Query for screens smaller than 768px */
+@media screen and (max-width: 767px) {
+    body {
+      font-size: 1.6rem;
+    }
+  
+    header {
+      height: 25vh;
+    }
+  
+    main {
+      height: 75vh;
+      flex-direction: column;
+    }
+  
+    .left, .right {
+      width: 100%;
+      font-size: 1.8rem;
+    }
+  
+    h1 {
+      font-size: 3rem;
+    }
+  
+    .number {
+      font-size: 4rem;
+      width: 12rem;
+      padding: 2rem 0rem;
+    }
+  
+    .between {
+      font-size: 1rem;
+      top: 1rem;
+      right: 1rem;
+    }
+  
+    .again {
+      top: 1rem;
+      left: 1rem;
+    }
+  
+    .guess {
+      font-size: 3rem;
+      padding: 1.5rem;
+      width: 20rem;
+      margin-bottom: 2rem;
+    }
+  
+    .btn {
+      font-size: 1.6rem;
+      padding: 1.5rem 2rem;
+    }
+  
+    .message {
+      margin-bottom: 4rem;
+      height: auto;
+    }
+  
+    .label-score {
+      margin-bottom: 1rem;
+      font-size: 1.6rem;
+    }
+  }
+  
